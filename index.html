@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body class="bg-white dark:bg-dim-900">
+    <div class="container mx-auto h-screen flex xl:max-w-[1200px]">
+      <!-- left  -->
+      <div class="xl:w-1/5 w-20 h-full flex flex-col xl:pr-4">
+        <a
+          href=""
+          class="flex justify-center items-center my-2 xl:justify-start text-blue-400"
+        >
+          <i class="fa-brands fa-twitter text-4xl"></i>
+        </a>
+        <nav class="mt-6">
+          <a href="" class="link-active">
+            <i class="fa-solid fa-house text-xl"></i>
+            <span class="icon">Home</span>
+          </a>
+          <a href="" class="link">
+            <i class="fa-solid fa-hashtag text-xl"></i>
+            <span class="icon">Explore</span>
+          </a>
+          <a href="" class="link">
+            <i class="fa-solid fa-bell text-xl"></i>
+            <span class="icon">Notidications</span>
+          </a>
+          <a href="" class="link">
+            <i class="fa-solid fa-envelope text-xl"></i>
+            <span class="icon">Messages</span>
+          </a>
+          <a href="" class="link">
+            <i class="fa-solid fa-bookmark text-xl"></i>
+            <span class="icon">Bookmarks</span>
+          </a>
+          <a href="" class="link">
+            <i class="fa-solid fa-list-ul text-xl"></i>
+            <span class="icon">lists</span>
+          </a>
+          <a href="" class="link">
+            <i class="fa-solid fa-user text-xl"></i>
+            <span class="icon">profile</span>
+          </a>
+          <a href="" class="link">
+            <i class="fa-solid fa-ellipsis text-xl"></i>
+            <span class="icon">More</span>
+          </a>
+        </nav>
+        <a class="bg-blue-400 rounded-full text-center text-white font-bold  p-3 icon">
+            <span class="icon">Tweet</span>
+        </a>
+        <i class="fa-solid fa-feather text-xl flex xl:hidden text-blue-400 justify-center"></i>
+        <div class="flex justify-center h-full items-end mt-50 mb-6 gap-4 cursor-pointer">
+            <img src="./image/1655454952684.jpg" class="rounded-full w-10 h-10" alt="">
+            <div class="icon dark:text-white" >
+                <h4>Eg:Ahmed Elhdad</h4>
+                <p>@AhmedElhdad212</p>
+            </div>
+            <i class="fa-solid fa-chevron-down text-xs hidden xl:flex xl:ml-4 mb-6 text-gray-800 dark:text-white">
+            </i>
+        </div>
+      </div>
+      <!-- Middle  -->
+      <div class="w-full xl:w-1/2 h-screen overflow-y-auto border-x-2	 dark:text-white dark:border-gray-700" ">
+
+        <!-- navber  -->
+        <div class="flex items-center justify-between border border-gray-200 dark:border-gray-700 p-4 h-20">
+          <span class="text-xl">Home</span>
+          <i class="fa-brands fa-twitter text-4xl text-blue-400"></i>
+        </div>
+        <!-- box-tweet  -->
+        <div class="p-4  border border-gray-200 h-40 flex flex-col justify-between dark:border-gray-700"">
+          <div class="flex items-center gap-2">
+            <img src="./image/1655454952684.jpg" class="w-12 h-12 rounded-full" alt="">
+            <textarea class="p-2 dark:text-white text-gray-900 w-full h-16 bg-transparent focus:outline-none resize-none"
+            placeholder="What's happening?"></textarea>          </div> 
+          <div class="flex items-center justify-between">
+            <div class="flex gap-2">
+              <i class="fa-solid fa-image text-lg text-blue-400"></i>
+              <i class="fa-solid fa-image text-lg text-blue-400"></i>
+              <i class="fa-solid fa-image text-lg text-blue-400"></i>
+              <i class="fa-solid fa-image text-lg text-blue-400"></i>
+
+            </div>
+            <a class="bg-blue-400 w-20 h-10 text-white  flex items-center justify-center rounded-full ">Tweet</a>
+          </div>
+        </div>
+        <!-- show Tweets  -->
+        <div class="text-center  border border-gray-200 py-4 text-blue-400 dark:border-gray-700"">
+          Show 9 Tweets
+        </div>
+        <!-- tweet  -->
+        <div class="p-4 border border-gray-200 dark:border-gray-700"" >
+          <div class="flex items-center">
+            <img src="./image/1655454952684.jpg" class="w-12 h-12 rounded-full" alt="">
+            <span class="ml-2">Ahmed Elhdad @AhmedElhdad212 </span>
+          </div>
+          <div class="ml-14">
+            <p class="mb-4">Any fool can write code that a computer can understand. Good programmers write code that humans can understand.</p>
+            <p class="mb-4">Experience is the name everyone gives to their #mistakes
+            </p class="mb-4">
+            <p>Simplicity is the soul of efficiency. </p>
+            <div class="mt-4">
+              <img src="https://images.nature.com/original/magazine-assets/d41586-019-00653-5/d41586-019-00653-5_16459150.jpg"
+               alt="" >
+              <div class="flex justify-between">
+                <div>
+                  <i class="fa-solid fa-comment mr-2 text-lg text-blue-400"></i>
+                  <span>12.3k</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-retweet mr-2 text-lg text-blue-400"></i>
+                  <span>12.3k</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-heart mr-2 text-lg text-blue-400"></i>
+                  <span>12.3k</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-share mr-2 text-lg text-blue-400"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="h-60 flex flex-col justify-center items-center text-center p-4 gap-4">
+          <h1 class="text-2xl font-bold">Customize your view</h1>
+          <p>Manage your font size, color and background. These settings affect all the Twitter accounts on this browser.</p>
+          <a href="javascript:void(0)" onclick="document.querySelector('html').classList.toggle('dark')"
+          class="mx-auto w-11 h-11 xl:w-48 flex items-center justify-center bg-blue-400 py-3 rounded-full text-white font-bold">
+          <i class="fa-solid fa-cloud-moon block xl:hidden text-lg"></i>
+          <span class="hidden xl:block font-bold ">Toggle Dark Mode</span>
+        </a>        </div>
+        <div class=" p-4 border border-gray-200 dark:border-gray-700">
+          <svg class="w-8 h-8 mx-auto animate-spin-fast ">
+            <circle cx="16" cy="16" fill="none" r="14" stroke-width="4" style="stroke: rgb(29, 161, 242); opacity: 0.2">
+            </circle>
+            <circle cx="16" cy="16" fill="none" r="14" stroke-width="4" style="
+                    stroke: rgb(29, 161, 242);
+                    stroke-dasharray: 80;
+                    stroke-dashoffset: 60;">
+            </circle>
+          </svg>
+        </div>
+      </div>
+      <!-- right  -->
+      <div class="hidden w-[30%] xl:block">
+        <div class="p-2 relative">
+          <input type="text" placeholder="Search Twitter" class="w-full p-2 pl-14 dark:focus:text-white  bg-gray-200 dark:bg-dim-400 focus:outline-none border-gray-200 dark:border-dim-400 rounded-full  " >
+          <i class="fa-solid fa-magnifying-glass absolute text-gray-600 text-xl top-[50%] left-8 translate-y-[-50%]"></i>
+        </div>
+        <div class=" rounded-md dark:bg-dim-700 m-2">
+          <h1 class="text-gray-900 dark:text-white font-bold p-3 border-b border-gray-200 dark:border-dim-200">What’s happening</h1>
+          <div class="p-3 border-b border-gray-200 dark:border-dim-200 ">
+            <h1 class="font-bold  text-gray-800 dark:text-white ">#Egypt</h1>
+            <span class="text-gray-400 ">29.7k Tweets</span>
+          </div>
+          <div class="p-3 border-b border-gray-200 dark:border-dim-200 ">
+            <h1 class="font-bold  text-gray-800 dark:text-white ">#Egypt</h1>
+            <span class="text-gray-400 ">29.7k Tweets</span>
+          </div>
+          <div class="p-3 border-b border-gray-200 dark:border-dim-200 ">
+            <h1 class="font-bold  text-gray-800 dark:text-white ">#Egypt</h1>
+            <span class="text-gray-400 ">29.7k Tweets</span>
+          </div>
+          <a class="p-3 w-full block text-blue-400  border-gray-200 dark:border-dim-200">Show more</a>
+        </div>
+        <div class="p-2 dark:bg-dim-700 m-2 rounded-md">
+          <h1 class="text-gray-800 font-bold dark:text-white p-2 border-b dark:border-dim-400">Who to follow</h1>
+          <div class="flex items-center justify-between border-b dark:border-dim-400">
+            <div class="flex gap-2 p-3">
+              <img src="./image/1655454952684.jpg" class="w-14 h-14 rounded-full">
+              <div>
+                <h2 class="text-gray-800 font-bold dark:text-white">AhmedElhdad</h2>
+                <span class="text-gray-400">@AhmedElhdad212</span>
+              </div>
+            </div>
+            <a class="block text-blue-400 border-2 border-blue-400  dark:bg-dim-400 dark:text-white px-6 py-1 bg-white rounded-full">Follow</a>
+          </div>
+          <div class="flex items-center justify-between border-b dark:border-dim-400">
+            <div class="flex gap-2 p-3">
+              <img src="./image/1655454952684.jpg" class="w-14 h-14 rounded-full">
+              <div>
+                <h2 class="text-gray-800 font-bold dark:text-white">AhmedElhdad</h2>
+                <span class="text-gray-400">@AhmedElhdad212</span>
+              </div>
+            </div>
+            <a class="block text-blue-400 border-2 border-blue-400  dark:bg-dim-400 dark:text-white px-6 py-1 bg-white rounded-full">Follow</a>
+          </div>
+          <div class="m-2 flex gap-2 items-center">
+            <div class="rounded-full bg-gray-400 h-12 w-12"></div>
+            <div class="flex-1 space-y-2 py-1 ">
+              <div class="h-4 bg-gray-400 rounded w-5/6"></div>
+              <div class="h-4 bg-gray-400 rounded w-3/4"></div>
+              <div class="h-4 bg-gray-400 rounded w-4/6"></div>
+            </div>
+          </div>
+          <a class="p-3 w-full block text-blue-400  border-gray-200 dark:border-dim-200">Show more</a>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
